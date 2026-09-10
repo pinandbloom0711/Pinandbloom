@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pin & Bloom</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#fffaf8;color:#2d2525;line-height:1.6}
+header{background:#fff;padding:18px 20px;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px #00000010}
+.nav{max-width:1000px;margin:auto;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:700;color:#b84c67}
+nav a{margin-left:14px;text-decoration:none;color:#4a3a3a;font-size:14px}
+.hero{padding:70px 20px;text-align:center;background:linear-gradient(135deg,#ffe7ed,#fff4df)}
+.hero h1{font-size:40px;margin-bottom:12px}
+.hero p{max-width:650px;margin:0 auto 25px;color:#604f4f}
+.btn{display:inline-block;background:#b84c67;color:white;padding:12px 22px;border-radius:25px;text-decoration:none;font-weight:bold}
+section{max-width:1000px;margin:auto;padding:50px 20px}
+h2{text-align:center;margin-bottom:25px;font-size:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:white;border-radius:16px;padding:25px;text-align:center;box-shadow:0 5px 18px #0000000d}
+.card .icon{font-size:42px;margin-bottom:10px}
+.card h3{margin-bottom:8px;color:#8f3e55}
+.card a{display:inline-block;margin-top:12px;color:#b84c67;text-decoration:none;font-weight:bold}
+.about{text-align:center;background:#fff}
+.cta{text-align:center;background:#f8e9ed;border-radius:20px}
+footer{text-align:center;padding:25px;background:#302829;color:#fff;font-size:14px}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero h1{font-size:32px}nav a{margin-left:7px;font-size:12px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<div class="logo">Pin & Bloom 🌸</div>
+<nav><a href="#home">Home</a><a href="#categories">Categories</a><a href="#about">About</a></nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<h1>Ideas to Inspire Your Everyday Life</h1>
+<p>Discover beautiful fashion, simple beauty tips, and practical ideas you can save, try and share on Pinterest.</p>
+<a class="btn" href="#categories">Explore Ideas</a>
+</section>
+
+<section id="categories">
+<h2>Explore Our Categories</h2>
+<div class="grid">
+<div class="card"><div class="icon">👗</div><h3>Fashion & Outfits</h3><p>Outfit inspiration, styling ideas and seasonal looks.</p><a href="#">Explore →</a></div>
+<div class="card"><div class="icon">💄</div><h3>Beauty & Skincare</h3><p>Beauty routines, skincare ideas and helpful tips.</p><a href="#">Explore →</a></div>
+<div class="card"><div class="icon">🏠</div><h3>Home Decor</h3><p>Simple, beautiful ideas for a cozy home.</p><a href="#">Explore →</a></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>Welcome to Pin & Bloom</h2>
+<p>Our goal is to share useful and beautiful ideas that make everyday life easier and more inspiring.</p>
+</section>
+
+<section>
+<div class="cta">
+<h2>Follow Our Pinterest Journey</h2>
+<p>Save your favorite ideas and discover new inspiration every week.</p><br>
+<a class="btn" href="#">Visit Pinterest</a>
+</div>
+</section>
+</main>
+
+<footer>© 2026 Pin & Bloom • All Rights Reserved</footer>
+</body>
+</html>
